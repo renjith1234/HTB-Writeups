@@ -1,2 +1,2 @@
 # HTB-Writeups
-Writeups for hackthebox.com ( retired machines )
+Writeups for hackthebox.eu ( retired machines )
