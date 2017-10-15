@@ -226,6 +226,6 @@ Remember, the cat command wont work now. So to use it we have to call it directl
 
 **root.txt**
 ```
-/binn/cat /root/root.txt
+/bin/cat /root/root.txt
 990b142c3cefd46a5e7d61f678d45515
 ```
