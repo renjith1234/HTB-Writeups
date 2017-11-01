@@ -1,6 +1,7 @@
 # HTB-Writeups
 ![alt text](https://github.com/netcatus/HTB-Writeups/blob/master/image/ncus.png "header")
 ![alt text](https://www.hackthebox.eu/badge/team/image/188 = 220x50)
+<img src="https://www.hackthebox.eu/badge/team/image/188" width="220" height="50" />
 
 # MEMBERS
 ![](https://www.hackthebox.eu/badge/image/3494)
