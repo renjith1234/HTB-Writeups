@@ -17,7 +17,7 @@ Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
 
 Okay lets have a look on it in the browser:
 
-![Alt text](https://github.com/jakobgoerke/HTB-Writeups/blob/master/Optimum/images/Rejetto.png "Rejetto")
+![Alt text](https://github.com/netcatus/HTB-Writeups/blob/master/Optimum/images/Rejetto.png "Rejetto")
 
 Aight we got something called Rejetto Http File Server, let's search metasploit for it.
 
