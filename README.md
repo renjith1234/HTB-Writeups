@@ -7,7 +7,6 @@
 ![](https://www.hackthebox.eu/badge/image/14319)
 ![](https://www.hackthebox.eu/badge/image/2426)
 ![](https://www.hackthebox.eu/badge/image/10777)
-![](https://www.hackthebox.eu/badge/image/10609)
 ![](https://www.hackthebox.eu/badge/image/11287)
 ![](https://www.hackthebox.eu/badge/image/14887)
 ![](https://www.hackthebox.eu/badge/image/6769)
