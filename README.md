@@ -11,3 +11,4 @@
 ![](https://www.hackthebox.eu/badge/image/14887)
 ![](https://www.hackthebox.eu/badge/image/6769)
 ![](https://www.hackthebox.eu/badge/image/4361)
+![](https://www.hackthebox.eu/badge/image/10609)
