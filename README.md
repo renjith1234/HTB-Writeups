@@ -10,4 +10,4 @@
 ![DP365](https://www.hackthebox.eu/badge/image/10609)
 ![CTFPiggy](https://www.hackthebox.eu/badge/image/11287)
 ![Zajt](https://www.hackthebox.eu/badge/image/17088)
-
+![M0nsterf4g](https://www.hackthebox.eu/badge/image/18187)
